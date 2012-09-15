@@ -39,6 +39,15 @@ gem 'jquery-rails'
 
 group :test do
   gem 'cucumber-rails', :require => false
+
+  # page object stuff
+  gem 'page-object'
+  gem 'rspec'
+  gem 'rspec-expectations'
+  gem 'faker'
+  gem 'require_all'
+  gem 'selenium-webdriver'
+
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
   gem 'machinist'
